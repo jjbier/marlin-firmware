@@ -557,7 +557,7 @@
  */
 
 #ifndef SDCARD_CONNECTION
-  #define SDCARD_CONNECTION              ONBOARD
+  #define SDCARD_CONNECTION              LCD
 #endif
 
 #if SD_CONNECTION_IS(ONBOARD)
@@ -602,7 +602,7 @@
   // Software serial
   //
   #define X_SERIAL_TX_PIN                      0
-  #define X_SERIAL_RX_PIN                      1
+  #define X_SERIAL_RX_PIN                      0
 
   #define Y_SERIAL_TX_PIN        X_SERIAL_TX_PIN
   #define Y_SERIAL_RX_PIN        X_SERIAL_RX_PIN
