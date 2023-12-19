@@ -599,9 +599,9 @@
     #define DEFAULT_Ki_LIST {   1.31,   1.31 }
     #define DEFAULT_Kd_LIST {  93.64,  93.64 }
   #else
-    #define DEFAULT_Kp 22.59
-    #define DEFAULT_Ki 1.34
-    #define DEFAULT_Kd 95.31    
+    #define DEFAULT_Kp 23.89
+    #define DEFAULT_Ki 1.42
+    #define DEFAULT_Kd 100.27  
   #endif
 #endif // PIDTEMP
 
@@ -926,7 +926,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 130 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 140 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1339,7 +1339,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR false
+#define INVERT_E0_DIR true
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
